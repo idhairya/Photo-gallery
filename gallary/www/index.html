@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title> Photo Gallery with JavaScript</title>
+
+<style type="text/css">
+body {
+	background: lightblue;
+	color: #000000;
+	margin-top: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a {
+	color: #FFF;
+}
+a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+.thumbnails img {
+	height: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="gallery" align="center">
+    <h1><center><font style="border:9px solid grey"> PHOTO GALLARY </font></center></h1>
+	<br />
+
+	<div class="thumbnails">
+		<img onmouseover="preview.src=img1.src" name="img1" src="C:\gallary\www\img/img1.jpg" alt=""/>
+		<img onmouseover="preview.src=img2.src" name="img2" src="C:\gallary\www\img/img2.jpg" alt=""/>
+		<img onmouseover="preview.src=img3.src" name="img3" src="C:\gallary\www\img/img3.jpg" alt=""/>
+		<img onmouseover="preview.src=img4.src" name="img4" src="C:\gallary\www\img/img4.jpg" alt=""/>
+		<img onmouseover="preview.src=img5.src" name="img5" src="C:\gallary\www\img/img5.jpg" alt=""/>
+        
+        <img onmouseover="preview.src=img6.src" name="img6" src="C:\gallary\www\img/img6.jpg" alt=""/>
+        <img onmouseover="preview.src=img7.src" name="img7" src="C:\gallary\www\img/img7.jpg" alt=""/>
+        <img onmouseover="preview.src=img8.src" name="img8" src="C:\gallary\www\img/img8.jpg" alt=""/>
+        <img onmouseover="preview.src=img9.src" name="img9" src="C:\gallary\www\img/img9.jpg" alt=""/>
+        <img onmouseover="preview.src=img10.src" name="img10" src="C:\gallary\www\img/img10.jpg" alt=""/>
+        
+        <img onmouseover="preview.src=img11.src" name="img11" src="C:\gallary\www\img/img11.jpg" alt=""/>
+        <img onmouseover="preview.src=img12.src" name="img12" src="C:\gallary\www\img/img12.jpg" alt=""/>
+        <img onmouseover="preview.src=img13.src" name="img13" src="C:\gallary\www\img/img13.jpg" alt=""/>
+        <img onmouseover="preview.src=img14.src" name="img14" src="C:\gallary\www\img/img14.jpg" alt=""/>
+        <img onmouseover="preview.src=img15.src" name="img15" src="C:\gallary\www\img/img15.jpg" alt=""/>
+        
+        <img onmouseover="preview.src=img16.src" name="img16" src="C:\gallary\www\img/img16.jpg" alt=""/>
+        <img onmouseover="preview.src=img17.src" name="img17" src="C:\gallary\www\img/img17.jpg" alt=""/>
+        <img onmouseover="preview.src=img18.src" name="img18" src="C:\gallary\www\img/img18.jpg" alt=""/>
+        <img onmouseover="preview.src=img19.src" name="img19" src="C:\gallary\www\img/img19.jpg" alt=""/>
+        <img onmouseover="preview.src=img20.src" name="img20" src="C:\gallary\www\img/img20.jpg" alt=""/>
+        
+        <img onmouseover="preview.src=img21.src" name="img21" src="C:\gallary\www\img/img21.jpg" alt=""/>
+        <img onmouseover="preview.src=img22.src" name="img22" src="C:\gallary\www\img/img22.jpg" alt=""/>
+        <img onmouseover="preview.src=img23.src" name="img23" src="C:\gallary\www\img/img23.jpg" alt=""/>
+        <img onmouseover="preview.src=img24.src" name="img24" src="C:\gallary\www\img/img24.jpg" alt=""/>
+        <img onmouseover="preview.src=img25.src" name="img25" src="C:\gallary\www\img/img25.jpg" alt=""/>
+        
+        <img onmouseover="preview.src=img26.src" name="img26" src="C:\gallary\www\img/img26.jpg" alt=""/>
+        <img onmouseover="preview.src=img27.src" name="img27" src="C:\gallary\www\img/img27.jpg" alt=""/>
+        <img onmouseover="preview.src=img28.src" name="img28" src="C:\gallary\www\img/img28.jpg" alt=""/>
+        <img onmouseover="preview.src=img29.src" name="img29" src="C:\gallary\www\img/img29.jpg" alt=""/>
+        <img onmouseover="preview.src=img30.src" name="img30" src="C:\gallary\www\img/img30.jpg" alt=""/>
+        
+        <img onmouseover="preview.src=img31.src" name="img31" src="C:\gallary\www\img/img31.jpg" alt=""/>
+        <img onmouseover="preview.src=img32.src" name="img32" src="C:\gallary\www\img/img32.jpg" alt=""/>
+        <img onmouseover="preview.src=img33.src" name="img33" src="C:\gallary\www\img/img33.jpg" alt=""/>
+        <img onmouseover="preview.src=img34.src" name="img34" src="C:\gallary\www\img/img34.jpg" alt=""/>
+        <img onmouseover="preview.src=img35.src" name="img35" src="C:\gallary\www\img/img35.jpg" alt=""/>
+        
+        <img onmouseover="preview.src=img36.src" name="img36" src="C:\gallary\www\img/img36.jpg" alt=""/>
+        <img onmouseover="preview.src=img37.src" name="img37" src="C:\gallary\www\img/img37.jpg" alt=""/>
+        <img onmouseover="preview.src=img38.src" name="img38" src="C:\gallary\www\img/img38.jpg" alt=""/>
+        <img onmouseover="preview.src=img39.src" name="img39" src="C:\gallary\www\img/img39.jpg" alt=""/>
+        <img onmouseover="preview.src=img40.src" name="img40" src="C:\gallary\www\img/img40.jpg" alt=""/>
+        
+
+        
+	</div><br/>
+
+	<div class="preview" align="center">
+		<img name="preview" src="images/img1.jpg" alt=""/>
+	</div>
+
+</div>
+
+
+</body>
